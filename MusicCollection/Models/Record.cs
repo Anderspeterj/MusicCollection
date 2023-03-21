@@ -2,10 +2,12 @@
 {
     public class Record
     {
-        private string _title { get; set; }
-        private string _artist { get; set; }
-        private int _duration { get; set; }
-        private int _publicationYear { get; set; }   
+
+        public int Id { get; set; }
+        public string Title { get; set; }
+        public string Artist { get; set; }
+        public int Duration { get; set; }
+        public int PublicationYear { get; set; }   
 
     }
 }

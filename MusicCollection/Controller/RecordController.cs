@@ -14,6 +14,6 @@ namespace MusicCollection.Controller
         public IActionResult Index()
         {
             return View();
-        }
+        }   
     }
 }
